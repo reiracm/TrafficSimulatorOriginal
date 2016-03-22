@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tables>
-  <tabla nombre="hdhntdnhdt">
-    <campo>
-      <nombre>Alfonso</nombre>
-      <tipo>integer</tipo>
-      <valor>1</valor>
-    </campo>
-    <campo>
-      <nombre>dato</nombre>
-      <tipo>char</tipo>
-      <valor>@</valor>
-    </campo>
-  </tabla>
-  <tabla nombre="Tabla2">
-    <campo>
-      <nombre>campo</nombre>
-      <tipo>varchar</tipo>
-      <valor>pato</valor>
-    </campo>
-  </tabla></tables>
+
+<root>
+	<Calle nombre = "1">
+		<Campo>
+		<PosXIni>1</PosXIni>
+		<PosYIni>2</PosYIni>
+		<PosXFin>3</PosXFin>
+		<PosYFin>4</PosYFin>
+		</Campo>
+	</Calle>
+	<carro nombre = "Carro1">
+		<velocidad></velocidad>
+		<tipos>4</tipos>
+	</carro>
+</root>
